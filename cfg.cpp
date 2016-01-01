@@ -327,7 +327,6 @@ void Cfg::fillSessionList(){
                              desktop_file.close();
                              pair<string,string> session(session_name,session_exec);
                              sessions.push_back(session);
-                             cout << session_exec << " - " << session_name << endl;
                         }
 
 					}
